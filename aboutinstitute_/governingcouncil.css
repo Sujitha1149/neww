@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.governing-rgukt-bg {
+    z-index: -1;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.rguktong.ac.in/svgs/carosel/ssn.png');
+    
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.governing-rgukt-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 81, 197, 0.2);
+}
+
+.governing-rgukt-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .governing-rgukt-head {
+        font-size: 33px;
+    }
+}
+
+.governing-rgukt-head-des {
+    position: relative;
+}
+
+.governing-rgukt-nav {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Sans-Serif";
+}
+
+/** governing council content**/
+.governing-line {
+    background-color: #ab0257;
+    width: 150px;
+    margin: 0px;
+}
+
+.governing-head {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .governing-head {
+        font-size: 27px;
+    }
+}
+
+.governing-sub-head {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-weight: bold;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .governing-sub-head {
+        font-size: 23px;
+    }
+}
+
+.governing-rgukt-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+@media (min-width:768px) {
+    .governing-rgukt-des {
+        font-size: 16px;
+    }
+}
+
+.governing-des-unordered {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.governing-des-unorder-lists:before {
+    content: "\22C4";
+    color:#ab0257;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.governing-des-unorder-lists {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (min-width:768px) {
+    .governing-des-unorder-lists {
+        font-size: 16px;
+    }
+}
+
+.governing-card {
+    border: 2px solid #d7d9d7;
+    border-radius: 8px;
+}
+
+.governing-card-head {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #f25d18;
+    margin-top: 15px;
+}
+
+.governing-img-card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.governing-img {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    border: 2px solid #ab0257;
+}
+
+.governing-card-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin: 0px;
+}

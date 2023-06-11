@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.vision-mission-bg {
+    z-index: -1;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.rguktong.ac.in/svgs/carosel/ssn.png');
+    background-size: cover;
+}
+
+.vision-mission-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 81, 197, 0.2);
+}
+
+.vision-mission-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+/*==========side bar=============
+
+.side-bar-quick {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    position: sticky;
+    top: 20%;
+
+}
+
+
+.menu-item-quick .nav-list-sty {
+    display: block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #3d3d3d;
+    margin: 2px;
+    padding: 7px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.menu-item-quick .nav-list-sty:hover {
+    background-color: #ab0257;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.vision-links-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+    margin: 2px;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .vision-mission-head {
+        font-size: 33px;
+    }
+}*/
+
+/*==========Sidebar=============*/
+
+.sidebar li .submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sidebar-head-text {
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10px;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+}
+
+.sidebar-submenu-head {
+    border-top: 1px solid #c7c7c7;
+}
+
+.sub-menu-item-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-menu-item-link {
+    color: #595858;
+}
+
+.sub-menu-item-link:hover {
+    background-color: #ab0257;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #595858;
+}
+.side-bar-stick{
+    position: sticky;
+    top: 20%;
+}
+/*==========all departments=============*/
+.dept-heading{
+    font-size: 26px;
+    font-weight: bold;
+    color:#ab0257;
+
+}
+.dept-hor-line{
+    width: 200px;
+    border: 1px solid #ab0257;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+}
+.site-heading h4 {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .site-heading h4 span {
+    color: #ab0257;
+  }
+  
+  .site-heading h2 {
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+  }
+  
+  .site-heading h2::before {
+    background: #00a01d none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+  }
+  
+  .site-heading {
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+
+
+  /** department gallery **/
+  .Photo-gallery-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color:#ab0257;
+
+}
+
+@media (min-width:600px) {
+    .Photo-gallery-head {
+        font-size: 23px;
+    }
+}
+
+.photo-gallery-card {
+    border-radius: 5px;
+    
+    overflow: hidden;
+}
+
+.photo-gallery-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.photo-gallery-card-head {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photo-gallery-img {
+    height: 190px;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+.photo-gallery-img:hover{
+    transform: scale(1.15);
+}
+
+
+@media (min-width:768px) {
+    .photo-gallery-img {
+        height: 190px;
+        object-fit: cover;
+	transition: transform 400ms ease-out;
+    }
+}
+
+.photo-gallery-card-head {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.photo-gallery-card-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin: 0px;
+}
+.event-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    height: 30px;
+    width: 150px;
+    background-color:#ab0257;
+    border: 0px;
+    border-radius: 14px;
+    color: white;
+
+}
+.event-button:hover{
+  background-color: #ffffff;
+  border: 1px solid #ab0257;
+  color: #ab0257;
+  font-weight: bold;
+  width: 150px;
+}
+
+.governing-rgukt-bg {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/university.jpg');
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.governing-rgukt-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(206, 205, 205, 0.73);
+}
+
+.governing-rgukt-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .governing-rgukt-head {
+        font-size: 33px;
+    }
+}
+
+.governing-rgukt-head-des {
+    position: relative;
+}
+
+.governing-rgukt-nav {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Sans-Serif";
+}
+
+
+/** governing council content**/
+.governing-line {
+    background-color: #ab0257;
+    width: 150px;
+    margin: 0px;
+}
+
+.governing-head {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .governing-head {
+        font-size: 27px;
+    }
+}
+
+
+
+.governing-rgukt-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+@media (min-width:768px) {
+    .governing-rgukt-des {
+        font-size: 16px;
+    }
+}
+
+.governing-des-unordered {
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+
+.governing-des-unorder-lists {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (min-width:768px) {
+    .governing-des-unorder-lists {
+        font-size: 16px;
+    }
+}
+
+.governing-card {
+    border: 1px solid #d4d2d2;
+    border-radius: 8px;
+    background: white;
+ 
+}
+@media (min-width:768px){
+    .governing-card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.governing-card-head {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #ab0257;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.hod-card-head{
+    color: #3d3d3d;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+}
+.governing-img-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.governing-img {
+    height: 100px;
+    width: 100px;
+   
+    border-radius: 70px;
+    border: 1px solid #777a78;
+}
+.hod-img{
+    height: 100px;
+    width: 100px;
+
+}
+.governing-card-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin: 0px;
+}
+
+.chanc-about {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+}
+.chanc-pro-des {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #4a4949;
+    margin: 3px;
+}
+.vision-list-type {
+    list-style-type: none;
+    padding: 8px;
+}
+.mission-links-des:before {
+    content: "\22C4";
+    color: #ab0257;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.mission-links-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+@media (min-width:768px){
+    .faculty-cards-cont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+/* laboratories */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 14px;
+  }
+  th{
+    background-color: rgb(87, 84, 84);
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  /*====== photo gallery======*/
+
+
+ @media (min-width:768px){
+    .branch-gallery-card{
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid #dddddd;
+    }
+ }
+ .branch-gallery-content {
+     padding: 15px;
+ }
+ 
+ .branch-gallery-card-head {
+     font-family: "Roboto";
+     font-size: 16px;
+     font-weight: bold;
+     color: #ab0257;
+     margin-bottom: 10px;
+ }
+ 
+ .branch-gallery-img {
+     height: 160px;
+     width: 100%;
+     
+ }
+
+
+ .branch-gallery-card-des {
+     color: #4a4849;
+     font-family: "Roboto";
+     font-size: 13px;
+     margin: 0px;
+     padding-bottom: 15px;
+ }
+ .down-load-pic{
+    color: #616161;
+    font-size: 16px;
+ }

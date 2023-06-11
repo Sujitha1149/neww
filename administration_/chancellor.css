@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.vision-mission-bg {
+    z-index: -1;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.rguktong.ac.in/svgs/carosel/ssn.png');
+    background-size: cover;
+}
+
+.vision-mission-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 81, 197, 0.2);
+}
+
+.vision-mission-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .vision-mission-head {
+        font-size: 33px;
+    }
+}
+
+
+.side-bar-quick {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    position: sticky;
+    top: 20%;
+}
+
+.quick-links-line {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.menu-item-quick .nav-list-sty{
+    display: block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #3d3d3d;
+    margin: 2px;
+    padding: 7px;
+}
+.menu-item-quick .nav-list-sty:hover{
+    background-color: #ab0257;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.vision-links-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+    margin: 2px;
+    padding: 7px;
+}
+
+
+.chan-img-size {
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    border: 2px solid #bdbbbb;
+}
+
+@media (min-width:768px) {
+    .chans-prof {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+}
+
+.chanc-name {
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: 600;
+    color: #fa4e1e;
+
+}
+
+.chanc-pos {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a4949;
+
+}
+
+.chanc-pro-des {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+   
+    color: #4a4949;
+
+}
+
+@media (max-width:767px) {
+    .chanc-profile {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:768px) {
+    .chanc-profile {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.chanc-about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ab0257;
+}

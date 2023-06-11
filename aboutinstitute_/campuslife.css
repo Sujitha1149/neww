@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.about-rgukt-bg {
+    z-index: -1;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.rguktong.ac.in/svgs/carosel/ssn.png');
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.about-rgukt-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 81, 197, 0.2);
+    
+}
+
+.about-rgukt-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .about-rgukt-head {
+        font-size: 33px;
+    }
+}
+
+.about-rgukt-head-des {
+    position: relative;
+}
+
+.about-rgukt-nav {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Sans-Serif";
+}
+
+/** main head **/
+.campus-main-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+.sports-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .sports-head {
+        font-size: 24px;
+    }
+}
+
+.life-rgukt-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+@media (min-width:768px) {
+    .life-rgukt-des {
+        font-size: 16px;
+    }
+}
+
+.life-rgukt-img {
+    margin-top: 14px;
+    margin-bottom: 18px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.life-rgukt-sports-img {
+    width: 85%;
+    border-radius: 20px;
+
+}
+
+.campus-life-line {
+    background-color: #ab0257;
+    width: 100px;
+    margin: 0px;
+}
+
+.sports-games-unordered {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.sports-games-unorder-lists:before {
+    content: "\22DF";
+    color: #ab0257;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.sports-games-unorder-lists {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (min-width:768px) {
+    .sports-games-unorder-lists {
+        font-size: 16px;
+    }
+}
+
+.academic-faci-card {
+    border: 1px solid #d7d9d7;
+    border-radius: 8px;
+}
+
+.life-at-rgukt-img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.academic-feci-card-des-con {
+    padding: 14px;
+}
+
+.academic-feci-img {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+@media (min-width:768px) {
+    .academic-feci-img {
+        height: 195px;
+    }
+}
+
+.acdemic-fec-head {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #ab0257;
+    margin-top: 15px;
+}

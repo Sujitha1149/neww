@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.vision-mission-bg {
+    z-index: -1;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.rguktong.ac.in/svgs/carosel/ssn.png');
+    background-size: cover;
+}
+
+.vision-mission-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 81, 197, 0.2);
+}
+
+.vision-mission-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .vision-mission-head {
+        font-size: 33px;
+    }
+}
+/*========all events======*/
+.reve-cont-head {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+    color: #ab0257;
+}
+
+.reve-card {
+    background-color: #f7f7f7;
+    border: 4px solid #f7f7f7;
+}
+.reve-card:hover{
+    background-color: #b0b0b0;
+    border: 4px solid #b0b0b0;
+}
+.reve-img-cont{
+    position: relative;
+}
+.reve-img-overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e3e2de;
+  opacity:0.3;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.reve-img-cont:hover .reve-img-overlay{
+    -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.reve-img {
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+
+.reve-calen {
+    background-color: #030d82;
+    padding: 13px;
+
+}
+
+.reve-cont {
+    margin: 4px;
+    background-color: #b0b0b0;
+}
+
+.reve-cal-mon {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #faf9f5;
+    margin: 0;
+}
+
+.reve-year {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    color: #faf9f5;
+    margin: 0;
+}
+
+.reve-text-cont {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.reve-text {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    color: #141414;
+    margin: 0;
+}
+
+.reve-link {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 500;
+}
+.reve-line{
+    width: 140px;
+    margin: 0;
+    border: 1px solid #ab0257;
+}
+
+/*===========subevents==========*/
+
+@media (min-width:768px) {
+    .sub-eve-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .sub-even-text-cont {
+        margin-left: 30px;
+    }
+}
+
+.sub-even-date {
+    background-color: #c9a740;
+    color: white;
+    padding: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.subeve-icon {
+    font-size: 20px;
+}
+
+.subeve-icon-text {
+    font-size: 15px;
+    color: #474746;
+
+}
+
+.adminis-cont-btn {
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: #ab0257;
+    border: 1px solid #ab0257;
+    border-radius: 6px;
+    padding: 3px;
+}
+/*=========consultancy========*/
+
+table tr:first-child {
+    background-color: #37474F;
+    color: #FFFFFF;
+}
+
+table {
+    font-family: "Roboto";
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    
+}
+.table-responsive{
+    overflow-x: auto;
+}
+td,
+th {
+    border: 1px solid #C6C5C5;
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+.new-gif-size{
+    width: 60px;
+    height: 27px;
+}
+.new1-gif-size{
+    width: 35px;
+    height: 17px;
+    padding-left: 10px;
+}
+/*========= Careers ========*/
+
+.careers-cont {
+    background-color: #f7f7f5;
+}
+
+.careers-card {
+    border-top: 4px solid #ab0257;
+    background-color: #FFFFFF;
+    padding: 30px 20px 10px 20px;
+}
+.careers-card:hover{
+    box-shadow: 0 0 20px #ccc;
+}
+.careers-location {
+    font-family: Sans-Serif;
+    font-size: 12px;
+    color: #424242;
+}
+
+.careers-head {
+    font-family: Sans-Serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #545254;
+}
+
+.careers-view {
+    font-size: 13px;
+}
+
+.careers-view-span {
+    font-size: 14px;
+}
+
+.careers-button {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 4px 14px 4px 14px;
+    color: #FFFFFF;
+    font-size: 12px;
+    background-color: #ab0257;
+    border: 1px solid #ab0257;
+    border-radius: 13px;
+    width: 70px;
+}
+
+.careers-button:hover {
+    background-color: #FFFFFF;
+    color: #292929;
+}

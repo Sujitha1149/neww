@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.vision-mission-bg {
+    z-index: -1;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.rguktong.ac.in/svgs/carosel/ssn.png');
+    background-size: cover;
+}
+
+.vision-mission-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 81, 197, 0.2);
+}
+
+.vision-mission-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .vision-mission-head {
+        font-size: 33px;
+    }
+}
+
+.side-bar-quick {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    position: sticky;
+    top: 15%;
+}
+
+.quick-links-line {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.menu-item-quick .nav-list-sty{
+    display: block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #3d3d3d;
+    margin: 2px;
+    padding: 7px;
+}
+.menu-item-quick .nav-list-sty:hover{
+    background-color: #ab0257;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.vision-links-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+    margin: 2px;
+    padding: 7px;
+}
+
+
+
+.adminof-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.admin-of-head {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+    color: #fa4e1e;
+}
+
+.chanc-pos {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    color: #4a4949;
+
+}
+
+.chanc-pro-des {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #4a4949;
+    margin: 3px;
+}
+.admin-off{
+    border: 1px solid #e1e2e3;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+@media (min-width:768px) {
+    .admin-off {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.chanc-about {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #ab0257;
+}
+
+.admin-of-head-off {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    color: #616263;
+}
+
+@media (max-width:767px) {
+    .admin-of-left {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) {
+    .admin-of-left {
+        margin-left: 20px;
+    }
+}
+@media (min-width:768px){
+    .associate-deans-li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+/*======academic programs======*/
+.aca-pro {
+    list-style-type: none;
+    padding: 0;
+}
+.aca-list-des:before {
+    content: "\22C4";
+    color: #ab0257;
+    font-size: 15px;
+    padding: 0;
+}
+
+.aca-list-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 15px;
+    
+}
+.progrm-text{
+    color: #f11919;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* ======curriculum=========*/
+.table-container{
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #c5c3c4;
+    
+}

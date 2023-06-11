@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.about-rgukt-bg {
+    z-index: -1;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.rguktong.ac.in/svgs/carosel/ssn.png');
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.about-rgukt-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(250, 81, 197, 0.2);
+}
+
+.about-rgukt-head {
+    position: relative;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+}
+
+@media (min-width:768px) {
+    .about-rgukt-head {
+        font-size: 33px;
+    }
+}
+
+.about-rgukt-head-des {
+    position: relative;
+}
+
+.about-rgukt-nav {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Sans-Serif";
+}
+
+/** Education system **/
+.education-line {
+    background-color: #ab0257;
+    width: 150px;
+    margin: 0px;
+
+}
+
+.education-head {
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: bold;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .education-head {
+        font-size: 24px;
+    }
+}
+
+.education-sub-head {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: #ab0257;
+    margin-top: 15px;
+}
+
+@media (min-width:768px) {
+    .education-sub-head {
+        font-size: 23px;
+    }
+}
+
+.education-rgukt-des {
+    color: #4a4849;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+@media (min-width:768px) {
+    .education-rgukt-des {
+        font-size: 16px;
+    }
+}
+
+.six-years-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.branch-card {
+    border: 1px solid #ab0257;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 70px;
+    width: 100%;
+
+}
+
+.branch-head {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+
+
+}

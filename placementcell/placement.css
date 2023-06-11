@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+#placenav1{
+    color: #424242;
+    font-size: 16px;
+}
+#placenav2{
+    color: #424242;
+    font-size: 16px;
+}
+#placenav3{
+    color: #424242;
+    font-size: 16px;
+}
+#placenav4{
+    color: #424242;
+    font-size: 16px;
+}
+#placenav5{
+    color: #424242;
+    font-size: 16px;
+}
+#placenav6{
+    color: #424242;
+    font-size: 16px;
+}
+@media (min-width:768px){
+    .carou-img-size{
+        height: 80vh;
+    }
+}
+
+.place-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0e067a;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+@media (min-width:768px) {
+    .place-head {
+        font-size: 24px;
+    }
+}
+
+.campus-life-line {
+    background-color: #0c7aa6;
+    width: 100px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place-des {
+    font-family: Sans-Serif;
+    font-size: 15px;
+    color: #606061;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+
+.place-obj {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.place-des-obj:before {
+    content: "\22DF";
+    color: #f06b24;
+    font-size: 14px;
+    padding-right: 4px;
+    font-family: Sans-Serif;
+}
+
+.place-des-obj {
+    font-family: Sans-Serif;
+    font-size: 15px;
+    color: #606061;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+
+
+.place-img {
+    width: 100%;
+    border-radius: 4px;
+}
+/* count */
+
+.place-highlights {
+    background-image: linear-gradient(45deg, #4FC3F7, #0288D1);
+}
+
+.place-high-head {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+
+    margin: 0;
+}
+
+.place-high-para {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Sans-Serif;
+}
+.recru-card {
+    background-color: transparent;
+    border: 1px solid #C6C6C7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.testi-star {
+    color: orange;
+  }
+  .testi-card {
+      background-color: white;
+      position: relative;
+      border: 1px solid #CFD8DC;
+      border-bottom: 4px solid #CFD8DC;
+      border-radius: 4px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  .testi-image-cont {
+      margin-bottom: 0;
+  }
+  
+  .testi-pic-cont {
+  
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      max-width: 85%;
+      height: 75px;
+  
+      border-bottom-right-radius: 100%;
+      border-bottom-left-radius: 100%;
+      background-color: #5bd1d7;
+  
+  }
+  
+  .testi-pic {
+      position: relative;
+      top: -50px;
+      width: 90px !important;
+      height: 90px;
+      border-radius: 50%;
+      border: 2px solid #78909C;
+      padding: 3px;
+      background-color: #ffffff;
+      margin-bottom: -40px;
+  
+  }
+  
+  .testi-des {
+      font-family: Sans-Serif;
+      font-size: 13px;
+      color: #606061;
+      line-height: 1.4;
+      letter-spacing: 1px;
+  }
+  
+  .testi-des-head {
+      font-weight: bold;
+      font-family: Sans-Serif;
+      font-size: 16px;
+      color: #37474F;
+  }
